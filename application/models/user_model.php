@@ -192,7 +192,7 @@ class User_Model extends CI_Model {
 		
 		$username = $this->input->post('user_name');
 		$password = $this->input->post('user_password');
-		var_dump($this->authenticate($username, $password));
+	//	var_dump($this->authenticate($username, $password));
 		return $this->authenticate($username, $password);
 	}
 
@@ -222,7 +222,7 @@ class User_Model extends CI_Model {
 			'user_eqsl_name'	=> $u->row()->user_eqsl_name,
 			'user_hash'		=> $this->_hash($u->row()->user_id."-".$u->row()->user_type)
 		);
-		var_dump($userdata);
+		//var_dump($userdata);
 		$this->session->set_userdata($userdata);
 	}
 
@@ -257,13 +257,13 @@ class User_Model extends CI_Model {
 		echo $u->num_rows();
 		if($u->num_rows != 0)
 		{
-			var_dump($this->_auth($password, $u->row()->user_password),"ddd");
+		//	var_dump($this->_auth($password, $u->row()->user_password),"ddd");
 			if($this->_auth($password, $u->row()->user_password)) {
-				var_dump("babababa");
+				//var_dump("babababa");
 				return 1;
 			}
 		}
-		var_dump("cacacaca");
+		//var_dump("cacacaca");
 		return 0;
 	}
 

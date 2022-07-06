@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title><?php // echo $title; ?></title>
+    <title><?php  echo $title; ?></title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <!-- Favicon icon -->
-<link rel="icon" type="image/png" href="http://awards-iaru-r3.org/assets/img/icon.png">
+<link rel="icon" type="image/png" href="<?php echo base_url(); ?>assets/img/icon.png">
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <!-- Font Awesome -->
@@ -58,7 +58,7 @@
 <div class="wrapper">
     <!-- Navbar-->
     <header class="main-header-top hidden-print" style="background: #fff;">
-         <a href="#" class="logo"><img style="height: 40px;" class="img-fluid able-logo" src="http://awards-iaru-r3.org/assets/img/logo.png" alt="Theme-logo"></a> 
+         <a href="#" class="logo"><img style="height: 40px;" class="img-fluid able-logo" src="<?php echo base_url();?>assets/img/logo.png" alt="Theme-logo"></a> 
         <nav class="navbar navbar-static-top" style="background: #CC1B22;">
             <!-- Sidebar toggle button--><a href="#!" data-toggle="offcanvas" class="sidebar-toggle"></a>
             <!-- Navbar Right Menu-->
