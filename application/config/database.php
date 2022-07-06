@@ -2,13 +2,7 @@
 
 
 // The following values will probably need to be changed.
-$db['default']['username'] = "root";
-$db['default']['password'] = "F65f53JzwYBSkWWM";
-$db['default']['database'] = "eventorarijabar";
 
-// The following values can probably stay the same.
-$db['default']['hostname'] = "103.85.14.165";
-$db['default']['dbdriver'] = 'mysqli'; 
 $db['default']['dbprefix'] = "";
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
