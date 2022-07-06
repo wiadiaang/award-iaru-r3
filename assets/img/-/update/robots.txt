@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /Rezulta
+Disallow: /Work-Hard-V5
+
